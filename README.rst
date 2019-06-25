@@ -6,7 +6,7 @@ about PyCUDA?
 .. image:: https://badge.fury.io/py/pycuda.png
     :target: http://pypi.python.org/pypi/pycuda
 
-* Object cleanup tied to lifetime of objects. This idiom, often
+* Object cleanup tied to the lifetime of objects. This idiom, often
   called
   `RAII <http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization>`_
   in C++, makes it much easier to write correct, leak- and
@@ -15,11 +15,11 @@ about PyCUDA?
   allocated in it is also freed.
 
 * Convenience. Abstractions like pycuda.driver.SourceModule and
-  pycuda.gpuarray.GPUArray make CUDA programming even more
+  pycuda.gpuarray.GPUArray makes CUDA programming even more
   convenient than with Nvidia's C-based runtime.
 
 * Completeness. PyCUDA puts the full power of CUDA's driver API at
-  your disposal, if you wish. It also includes code for
+  your disposal if you wish. It also includes code for
   interoperability with OpenGL.
 
 * Automatic Error Checking. All CUDA errors are automatically
